@@ -1,0 +1,27 @@
+/* hero section */
+.hero {
+  height: 60vh;
+  color: $white;
+  background: url(/assets/images/post-image.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  &__arrow {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 2.5rem;
+  }
+  &__title {
+    font-family: $playFair;
+    font-size: $xx-large;
+    font-weight: $black;
+    font-style: italic;
+  }
+}

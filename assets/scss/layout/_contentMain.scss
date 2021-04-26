@@ -1,0 +1,30 @@
+/* contenido principal */
+.contenidoPrincipal {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 4rem;
+
+  &__title {
+    color: $raisinBlack;
+    opacity: 0.7;
+    font-family: $playFair;
+    font-weight: $regular;
+    font-size: $large;
+    padding: 4.688rem 0;
+  }
+
+  &__paragraph {
+    color: $raisinBlack;
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $medium;
+    padding-bottom: 3.5rem;
+    line-height: 2.063rem;
+    text-align: left;
+
+    & span {
+      color: #d76c69;
+    }
+  }
+}

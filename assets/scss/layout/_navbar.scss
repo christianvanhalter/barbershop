@@ -1,0 +1,21 @@
+/* navegación principal */
+.navegacionPrincipal {
+  background-color: $eerieBlack !important;
+  font-family: $roboto;
+  font-size: $medium;
+
+  .nav-item a {
+    &:link {
+      //elemento que aún no se ha visitado
+      color: $white !important;
+    }
+
+    &:visited {
+      color: $white !important;
+    }
+
+    &:hover {
+      color: $ruddyPink !important;
+    }
+  }
+}

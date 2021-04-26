@@ -1,0 +1,79 @@
+// naomi section
+.autorEntry {
+  padding: 2rem 0;
+
+  &__thumbnail img {
+    border-radius: 500px;
+    border: $lightGray 1px solid;
+    width: 160px;
+  }
+
+  &__autorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  &__autorName {
+    font-family: $playFair;
+    font-weight: $black;
+    font-size: $x-large;
+    font-style: italic;
+    color: $eerieBlack;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  &__link--color {
+    font-family: $roboto;
+    font-weight: $light;
+    color: $ruddyPink;
+    text-decoration: none !important;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+
+    &:link {
+      //elemento que aún no se ha visitado
+      color: $ruddyPink !important;
+    }
+
+    &:visited {
+      color: $ruddyPink !important;
+    }
+
+    &:hover {
+      color: $ruddyPink !important;
+    }
+  }
+
+  &__descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__description {
+    color: $nickel;
+    font-family: $roboto;
+    font-size: $medium;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .autorEntry {
+    &__autorContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center !important;
+      justify-content: center;
+      padding-bottom: 1rem;
+    }
+
+    &__descriptionContainer {
+      display: none;
+    }
+  }
+}

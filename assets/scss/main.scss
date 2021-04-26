@@ -1,0 +1,25 @@
+//7-1 pattern sass
+//01.Abstracts folder
+@import "./abstracts/variables";
+
+//02.Vendors folder
+@import "./vendors/bootstrap/scss/bootstrap.scss";
+
+//03.Base folder
+@import "./base/resets", "./base/typography";
+
+//04.Layout folder
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/contentMain";
+@import "./layout/thumbnail";
+@import "./layout/footer";
+
+//05.Components folder
+@import "./components/navigation";
+@import "./components/smallButton";
+@import "./components/mediumButton";
+
+//06.Pages folder
+
+//07.Themes folder

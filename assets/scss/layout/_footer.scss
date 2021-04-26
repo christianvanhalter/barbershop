@@ -1,0 +1,13 @@
+/* footer */
+.footer {
+  background-color: $eerieBlack;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12.438rem;
+
+  &__logo img {
+    width: 122px;
+  }
+}
